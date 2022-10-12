@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@astrojs/netlify': ^1.1.0
   '@astrojs/tailwind': ^2.0.2
   '@astrojs/vue': ^1.1.0
   '@iconify-json/mdi': ^1.1.33
@@ -16,6 +17,7 @@ specifiers:
   vue: ^3.2.30
 
 dependencies:
+  '@astrojs/netlify': 1.1.0
   '@astrojs/tailwind': 2.0.2_tailwindcss@3.1.8
   '@astrojs/vue': 1.1.0_vue@3.2.40
   aos: 2.3.4
@@ -122,6 +124,13 @@ packages:
       micromark-util-types: 1.0.2
       uvu: 0.5.6
       vfile-message: 3.1.2
+    dev: false
+
+  /@astrojs/netlify/1.1.0:
+    resolution: {integrity: sha512-Gn8S4cYRAuLTWMTWtY6xC0r5a483BvT8WFr5Uq5kdqRUaYPGL3/ooWbCXJJYEA918pKkoZIFlyLRFbF1/OgTqQ==}
+    dependencies:
+      '@astrojs/webapi': 1.1.0
+      esbuild: 0.14.54
     dev: false
 
   /@astrojs/prism/1.0.1:
