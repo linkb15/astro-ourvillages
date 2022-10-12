@@ -4,8 +4,6 @@ import NavLink from '../NavLink.vue'
 import IconFacebook from '~icons/mdi/facebook'
 import IconInstagram from '~icons/mdi/instagram'
 import IconArrowRight from '~icons/mdi/arrow-right'
-
-const year = new Date().getFullYear()
 </script>
 
 <template>
@@ -16,7 +14,7 @@ const year = new Date().getFullYear()
           class="w-full sm:w-1/2 xl:w-fit flex flex-col sm:flex-row sm:px-16 py-6 sm:py-12 sm:space-x-10 sm:border-r border-[#DDDDDD]"
         >
           <div class="mb-6 sm:mb-0 gap-6 flex flex-col">
-            <a href="#">
+            <a href="/">
               <img
                 src="/img/logo/nefa.svg"
                 class="w-24 -mt-2"
@@ -109,7 +107,8 @@ const year = new Date().getFullYear()
     <div
       class="py-8 sm:py-4 text-center text-sm text-[#666666] hover:text-gray-900"
     >
-      &copy; Copyright {{ year }} Mary’s Missionaries Inc. All rights reserved
+      &copy; Copyright {{ new Date().getFullYear() }} Mary’s Missionaries Inc.
+      All rights reserved
     </div>
   </footer>
 </template>

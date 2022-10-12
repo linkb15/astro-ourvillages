@@ -31,7 +31,7 @@ const { title } = Astro.props
           <slot />
         </main>
 
-        <Footer />
+        <Footer client:visible />
       </div>
     </div>
     <style is:global>
